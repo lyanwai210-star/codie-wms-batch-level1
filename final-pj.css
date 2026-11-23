@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #F9FAFB;
+    background-color: rgb(3, 4, 4);
+
+}
+
+a {
+    color: inherit;
+}
+
+.logo{
+    font-weight: bold;
+    color: #A78BFA;
+}
+
+.header-nav {
+    background-color:  #1C1D27;
+    
+}
+
+.header-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    
+}
+
+section{
+    scroll-margin-top: 90px;
+
+}
+
+.navbar {
+    position: fixed;
+    flex-direction: row;
+    top: 0;
+    gap: 1rem;
+    padding-block: 1rem;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+
+    padding: 15px;
+}
+
+.nav-links a {
+    color: #A78BFA;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a:hover {
+    color: #F9FAFB;
+}
+
+.logo {
+
+    font-size: 1.5 rem;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+.home-pages {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+    background-color: #111318;
+    margin-top: 20px;
+
+}
+
+.home-texting {
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+.home-image {
+    width: 400px;
+    max-width: 320px;
+    color: rgb(255, 3, 3);
+    background-color: rgb(9, 9, 9);
+    margin: 0 auto;
+    
+    
+
+}
+
+.home-img2 {
+    width: 50%;
+    max-width: 350px;
+    margin-top: 20px;
+    margin: 20px auto 0;
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.home-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.home-action{
+    text-align: center;
+}
+
+.home-action2 {
+
+    display:inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+    width:fit-content;
+    color:#A78BFA;
+    text-decoration: none;
+    
+}
+
+
+.home-action2 a:hover {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    
+}
+
+strong{
+    color: #A78BFA;
+}
+
+.abouth2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #A78BFA;
+}
+
+.about-page {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: #111318;
+    width: 100%;
+    padding-bottom: 15rem;
+    padding-top: 15rem;
+    padding-left: 2rem;
+
+}
+
+.about-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    flex: 1;
+
+}
+
+
+
+.about-list {
+    padding: 1.3rem;
+    background-color:#1C1D27;
+    border-radius: 0.75rem;
+    width: 30%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+   margin-right: 2rem;
+    
+}
+
+h1
+{
+    color: #A78BFA;
+}
+
+h2{
+    color: #A78BFA;
+}
+
+.exp-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #111318;
+    width: 100%;
+    
+}
+
+.href-exp{
+    color: #A78BFA; 
+    text-decoration: none;
+}
+
+.exp-img{
+    display:block;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid rgb(8, 8, 8); 
+    margin: 0 auto;
+    background-color: #1C1D27;
+    margin-right: 4rem;
+}
+.ged-img{
+     display: block;
+    max-width: 100%;
+    height: auto;
+    width: 320px;
+}
+
+.exp-H{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.card-pf {
+    padding: 20px;
+    margin: 0px;
+    background-color:#1C1D27;
+    width: 350px;
+    text-align: center;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 20px;
+
+}
+
+.card-gp {
+    padding: 40px;
+    background-color:#111318;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.pfgp {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contact-box {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: #111318;
+}
+
+.contact-intro{
+    padding-left: 2rem;
+}
+
+.class-form {
+
+    
+    background-color:#1C1D27;
+    border-radius: 0.75rem;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    padding-left: 120px;
+    color: #A78BFA;
+    
+    
+
+}
+
+.form-gp {
+    margin-bottom: 1.25rem;
+}
+
+.form-gp label {
+    display: block;
+
+    margin-top: 0;
+    color:#A78BFA;
+    font-weight: bold;
+}
+
+.form-gp input,
+.form-gp textarea {
+    width: 90%;
+    padding: 0.75 rem;
+    background-color:#F9FAFB;
+    margin-top: 0 ;
+    display: block;
+    color: #060607;
+    border: 1px solide rgb(4, 4, 4)
+    
+    
+    }
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+button{
+    background-color: #A78BFA;
+}
+
+.footer-box {
+    width: 90%;
+    margin-inline: auto;
+
+}
+
+.button-ct{
+    width: 30%;
+    background-color: #A78BFA;
+    
+}
+.footer-pg {
+    background-color:#111318;;
+    padding: 1.5rem 0;
+    text-align: center;
+    color:#A78BFA;
+}
+
+
+@media (min-width: 1024px) {
+
+    :root {
+        --gap-size: 4rem
+    }
+
+    .home-pages h3 {
+        font-size: 1.25rem;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+    .navber {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: row;
+
+    }
+
+    .home-box {
+        flex-direction: row;
+        align-items: center;
+        flex: 1;
+
+    }
+
+    .about-text {
+        flex-direction: row;
+    }
+
+    .exp-box{
+        flex-direction: row;
+    }
+
+
+    .contact-box {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+.my-exp{
+    background-color: rgb(188, 232, 232);
+    width: 100%;
+    display: flex;
+    
+}
+
+.exp-H{
+    text-align: center;
+}
+}
