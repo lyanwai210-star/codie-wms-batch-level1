@@ -1,5 +1,0 @@
-# Sample .gitignore
-.env
-.env.*
-node_modules/
-*.log
